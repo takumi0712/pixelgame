@@ -1,4 +1,4 @@
-#pixelgame
+# pixelgame
 
 ドット絵横スクロールゲーム
 
