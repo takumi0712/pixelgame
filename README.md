@@ -4,7 +4,7 @@
 
 # DEMO
 
-"hoge"の魅力が直感的に伝えわるデモ動画や図解を載せる
+![pyxel-210719-225526](https://user-images.githubusercontent.com/87654637/126171491-bcd65b73-7d3e-4e23-9d1c-8d11769b291d.gif)
 
 # Requirement
 
