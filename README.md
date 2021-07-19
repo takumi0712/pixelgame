@@ -19,7 +19,7 @@ pip install pyxel
 
 # Usage
 ```bash
-git clone https://github.com/hoge/~
+git clone https://github.com/takumi0712/pixelgame.git
 cd game
 python main.py
 ```
