@@ -390,20 +390,7 @@ class Player:
     def invincibleTime_set(self,time):
         self.invincibleTime = time
     
-class God(Player):
-    def update(self):
-        if pyxel.btn(pyxel.KEY_D):
-            self.bg.m_x -=3
-            self.p_direction = 1
-        if pyxel.btn(pyxel.KEY_A):
-            self.bg.m_x +=3
-            self.p_direction = -1
-        if pyxel.btn(pyxel.KEY_W):
-            self.bg.m_y +=3
-        if pyxel.btn(pyxel.KEY_S):
-            self.bg.m_y -=3
-        if pyxel.btnp(pyxel.MOUSE_LEFT_BUTTON):
-            attack(self,self.p_direction * 19 + 107,108,100,10,30,self.atk*10)
+
 
 class attack:
     def __init__(self,p,x,y,w,h,lifspan,atk):
